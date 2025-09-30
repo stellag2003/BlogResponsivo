@@ -1,3 +1,7 @@
+body{
+    background-color: chocolate;
+}
+
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr; 
@@ -16,9 +20,11 @@
 }
 
 .texto {
-    grid-column: 1 / 2; 
+    grid-column: 1 / -1; 
+    font-size: 25px;
 }
 
 .imagem {
-    grid-column: 2 / 3; 
+    grid-column: 1  / -1; 
+    width: 450px;
 }
